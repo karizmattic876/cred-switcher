@@ -1,0 +1,25 @@
+#Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+#Virtual Environments
+venv/
+env/
+.venv/
+
+#Build / Packaging
+build/
+dist/
+*.egg-info/
+
+#Installer Artifacts
+*.whl
+*.tar.gz
+
+#Logs or Local Debugging
+*.log
+
+#Local config/data (if used)
+.cred-switcher/
