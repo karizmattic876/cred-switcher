@@ -43,3 +43,11 @@ cred-switcher set <profile>
 cred-switcher add <profile>
 cred-switcher list
 cred-switcher show
+
+---
+
+## 🖼️ Demo
+
+Here's how `cred-switcher` looks in action:
+
+![cred-switcher demo](screenshot.png)
