@@ -1,4 +1,5 @@
 # 🔐 cred-switcher
+[![PyPI version](https://badge.fury.io/py/cred-switcher.svg)](https://pypi.org/project/cred-switcher/)
 
 A simple CLI tool to quickly switch between different **Git identities** and **AWS credentials**.
 
@@ -18,35 +19,41 @@ Perfect for developers juggling multiple projects, clients, or AWS environments.
 
 ## 📦 Installation
 
-### 🔁 Recommended: Use a Virtual Environment
+Install globally via [PyPI](https://pypi.org/project/cred-switcher/):
 
 ```bash
-git clone https://github.com/karizmattic876/cred-switcher.git
-cd cred-switcher
+pip install cred-switcher
+```
 
-# Create and activate a virtual environment
+> 🔁 Recommended for devs: use a virtual environment
+
+```bash
 python3 -m venv venv
 source venv/bin/activate
+pip install cred-switcher
+```
 
-# Install the CLI in editable mode
-pip install --editable .
+Then run it:
+
+```bash
+cred-switcher
 ```
 
 ---
 
 ## 🧹 Uninstallation
 
-If using a virtual environment:
+To remove it:
+
+```bash
+pip uninstall cred-switcher
+```
+
+If you used a virtual environment:
 
 ```bash
 deactivate
 rm -rf venv/
-```
-
-Or uninstall globally:
-
-```bash
-pip uninstall cred-switcher
 ```
 
 ---
