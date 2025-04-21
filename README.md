@@ -1,5 +1,6 @@
 # 🔐 cred-switcher
 [![PyPI version](https://badge.fury.io/py/cred-switcher.svg)](https://pypi.org/project/cred-switcher/)
+[![Downloads](https://static.pepy.tech/badge/cred-switcher)](https://pepy.tech/project/cred-switcher)
 
 A simple CLI tool to quickly switch between different **Git identities** and **AWS credentials**.
 
